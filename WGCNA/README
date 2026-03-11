@@ -1,1 +1,4 @@
-
+## This is for WGCNA
+## Data_Log2TPM.csv is an initial file to run the WGCNA (from S+M model)
+## Visualizing module-wise pie charts for all genes across modules needs Modules_SM_model.csv
+## Visualizing module-wise pie charts for hubgenes across modules needs Modules_HubGenes_SM_model.csv
