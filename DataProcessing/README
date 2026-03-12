@@ -1,0 +1,20 @@
+## Data Processing
+This folder contains R scripts used for preprocessing and summarizing dual-seq transcriptome data.
+
+## Input data
+The following input files are required:
+- "WGCNA_Readcount.csv" Expression counts generated from dual-seq transcriptomed.
+- "Data_library_50.csv" Metadata describing the 50 sequencing libraries used in this study.
+
+## Processing
+The scripts in this folder perform the following steps:
+- Generate expression profiles including:
+  - TPM / coding length
+  - TPM
+  - log2(TPM+1)
+- Produce distribution plots to visualize expression profiles across libraries
+- Calculate correlations between all-genes based on their log2(TPM+1) values including:
+  - interspecies correlations
+  - intraspecies correlations
+
+## The datasets generated here are used as input for downstream WGCNA analysis.
