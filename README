@@ -1,36 +1,60 @@
-## Two species co-expression network analysis for Medicago-Sinorhizobia symbiosis
+## R code repository for two species co-expression network analysis for Medicago-Sinorhizobia symbiosis
+
+## This repository accompanies the manuscripts: 
 ## Byungwook Choi, Peter Tiffin
 ## Department of Plant and Microbial Biology, University of Minnesota
 
-## This analyses include general data processing, WGCNA, GO enrichment analysis and network comparisons.
-## 1. DataProcessing
-## 2. WGCNA
-## 3. GOenrichment
-## 4. NetworkComparison
 
-## Required libraries for entire process
-library(WGCNA)
-library(tidyverse)
-library(dplyr) ## %>%, rename
-library(stringr) ## filter
-library(magrittr)
-library(ggplot2)
-library(readxl) ## read.xlsx
-library(readr)
-library(rtracklayer) ## import for gtf
-library(ape) ## read.gff
-library(patchwork) ## wrap_plots
-library(gridExtra) ## arrangeGrob
-library(flashClust)
-library(pheatmap)
-library(cowplot)
-library(clusterProfiler)
-library(ggalluvial)
-library(simplifyEnrichment)
-library(ggh4x)
-library(ggforce)
-library(reshape2)
-library(igraph)
+## This repository contains R scripts and processes datasets used to analyze host-symbiont co-expression networks in the Medicago-Sinorhizoba symbiosis using dual RNA-seq transcriptome data.
 
+## The analyses include:
+DataProcessing
+- Preprocessing of dual-seq expression data
+- generation of expression profiles such as TPM/codinglength, TPM, and Log2(TPM+1) values.
+Co-expression networks using WGCNA (in "WGCNA")
+- construction of co-expression networks
+- module detection and hub gene identification
+GO enrichment analysis (in "GOEnrichmentAnalysis")
+- functional enrichment of module genes and highly correlated interspecies genes
+Comparison of co-expression networks across different networks (in "NetworkComparison")
+- comparison betweeen S+M, S-only, and S+M, M-only networks
+- comparison with networks from Riaz et al. (2025)
+
+## Repository structure
+|-DataProcessing/
+|-WGCNA/
+|-GOEnrichmentAnalysis
+|-NetworkComparison/
+Each folder contains R scripts and README files describing the specific analyses.
+
+## Required R packages 
+The following R packages are required to run the analyses:
+- WGCNA
+- tidyverse
+- dplyr
+- stringr
+- magrittr
+- ggplot2
+- readxl
+- readr
+- rtracklayer
+- ape
+- patchwork
+- gridExtra
+- flashClust
+- pheatmap
+- cowplot
+- clusterProfiler
+- ggalluvial
+- simplifyEnrichment
+- ggh4x
+- ggforce
+- reshape2
+- igraph
+
+
+## Data availability
+Due to Github file size limitations, some large datasets are not included in this repository.
+Links to download those files are offered in the README files within each folder.
 
 
