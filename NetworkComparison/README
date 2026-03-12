@@ -1,1 +1,50 @@
+## Network comparison
+This folder contains R script used to calcuated ME correlations between modules assigned from the combined two species (S+M model) versus single species (either S or M model)
+This folder also contains R scripts used to compare different networks between;
+i) the combined two species (S+M model) versus single species (either S or M model)
+ii) the single-host with single-symbiont dataset in Riaz et al. (2025) and the multi-host with multi-symbiont datasets in this study.
+This aims to reveal how co-expression patterns vary under host genetic variation.
 
+## Input data
+The following input files are required:
+a) To calculate ME correlation between
+- "MEs_SM_Model.csv" Module memberships (MEs) for all libraries from the WGCNA with the S+M model
+- "MEs_S_Model.csv" Module memberships (MEs) for all libraries from the WGCNA with the S model
+- "MEs_M_Model.csv" Module memberships (MEs) for all libraries from the WGCNA with the M model
+
+b) To create heatmap displaying how frequent genes overlapped between networks
+- "Summary_Module_SM_Model.csv" Module assigned table for all genes from the WGCNA with the S+M model
+- "Summary_Module_S_Model.csv" Module assigned table for all genes from the WGCNA with the S model
+- "Summary_Module_M_Model.csv" Module assigned table for all genes from the WGCNA with the M model
+
+c) To compare different networks
+- Datasets in Riaz et al. (2025)
+  - "suppl_file_S4.xlsx" Summed to gene/gene cluster counts for all Medicago (49,928) and Ensifer pangenome (12,107) genes. Also includes the locus_tag IDs for strains 1021and MABNR56, if in a gene cluster.
+    > designated as "Riaz_raw.xlsx" in this script.
+  - "supple_file_S6 (pangenome-rhizobia module genes).csv" Module membership of Sinorhizobium meliloti pangenome gene groups in co-expression network.
+  - "suppl_file_S8 (Plant module genes).csv" Module membership of Medicago truncatula gene co-expression network
+    (above Datasets listed in Supporting Information (Riaz et al. 2025), available on https://www.pnas.org/doi/suppl/10.1073/pnas.2411831122)
+- Datasets in this study
+  - "WGCNA_Readcount.csv" 
+  - "Summary_Module_SM_Model.csv"
+  - "Summary_Module_S_Model.csv"
+  - "Summary_Module_M_Model.csv"
+
+- References to match protein ID of Sinorhizobia genes between two different networks
+  - "GCF_002197065.1_ASM219706v1_genomic.gtf.gz" (available on https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_002197065.1/)
+  - "GCF_000006965.1_ASM696v1_genomic.gtf.gz"
+
+## Processing
+The scripts in this folder perform the following steps:
+- Comparing networks between
+  - the S+M and the S models
+  - the S+M and the M models
+- Calculating MEs between
+  - the S and the M model
+  - the S+M and the S models
+  - the S+M and the M models
+- Comparing networks between
+  - networks for Sinorhizobia genes created from Riaz et al. (2025) and the S+M model in this study
+  - networks for Sinorhizobia genes created from Riaz et al. (2025) and the S model in this study
+  - networks for Medicago genes created from Riaz et al. (2025) and the S+M model in this study
+  - networks for Medicago genes created from Riaz et al. (2025) and the M model in this study
