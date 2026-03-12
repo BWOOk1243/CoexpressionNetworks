@@ -8,6 +8,29 @@
 ## 03_GOenrichment
 ## 04_NetworkComparison
 
+## Required libraries for entire process
+library(WGCNA)
+library(tidyverse)
+library(dplyr) ## %>%, rename
+library(stringr) ## filter
+library(magrittr)
+library(ggplot2)
+library(readxl) ## read.xlsx
+library(readr)
+library(rtracklayer) ## import for gtf
+library(ape) ## read.gff
+library(patchwork) ## wrap_plots
+library(gridExtra) ## arrangeGrob
+library(flashClust)
+library(pheatmap)
+library(cowplot)
+library(clusterProfiler)
+library(ggalluvial)
+library(simplifyEnrichment)
+library(ggh4x)
+library(ggforce)
+library(reshape2)
+library(igraph)
 
 
 
