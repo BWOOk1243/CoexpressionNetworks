@@ -1,0 +1,29 @@
+Species,Correlations,Category,ID,Description,p.adjust,Count
+Sinorhizobium,Positive,CC,GO:0009317,acetyl-CoA carboxylase complex,0.01,3
+Sinorhizobium,Positive,CC,GO:0045282,plasma membrane succinate dehydrogenase complex,0.046,2
+Sinorhizobium,Positive,MF,GO:0046933,"proton-transporting ATP synthase activity, rotational mechanism",0.009,3
+Sinorhizobium,Positive,BP,GO:0006099,tricarboxylic acid cycle,0.001,5
+Sinorhizobium,Positive,BP,GO:0015986,proton motive force-driven ATP synthesis,0.001,4
+Sinorhizobium,Positive,BP,GO:0006633,fatty acid biosynthetic process,0.003,5
+Sinorhizobium,Positive,BP,GO:0009399,nitrogen fixation,0.037,3
+Sinorhizobium,Negative,BP,GO:0009399,nitrogen fixation,0.001,4
+Medicago,Positive,MF,GO:0046872,metal ion binding,0.014,32
+Medicago,Positive,MF,GO:0003688,DNA replication origin binding,0.025,3
+Medicago,Positive,MF,GO:0008017,microtubule binding,0.031,6
+Medicago,Positive,MF,GO:0036430,CMP kinase activity,0.031,2
+Medicago,Positive,MF,GO:0036431,dCMP kinase activity,0.031,2
+Medicago,Positive,MF,GO:1990939,ATP-dependent microtubule motor activity,0.031,4
+Medicago,Positive,MF,GO:0033862,UMP kinase activity,0.039,2
+Medicago,Positive,MF,GO:0031490,chromatin DNA binding,0.039,3
+Medicago,Positive,MF,GO:0009044,"xylan 1,4-beta-xylosidase activity",0.039,2
+Medicago,Positive,MF,GO:0032454,histone demethylase activity (H3-K9 specific),0.039,2
+Medicago,Positive,MF,GO:0004190,aspartic-type endopeptidase activity,0.042,4
+Medicago,Positive,MF,GO:0030570,pectate lyase activity,0.049,2
+Medicago,Positive,MF,GO:0008271,secondary active sulfate transmembrane transporter activity,0.05,2
+Medicago,Positive,MF,GO:0015301,anion,0.05,2
+Medicago,Positive,BP,GO:0033169,histone H3-K9 demethylation,0.01,3
+Medicago,Positive,BP,GO:2000779,regulation of double-strand break repair,0.013,2
+Medicago,Positive,BP,GO:0007018,microtubule-based movement,0.013,5
+Medicago,Positive,BP,GO:0080188,gene silencing by RNA-directed DNA methylation,0.016,3
+Medicago,Positive,BP,GO:0006221,pyrimidine nucleotide biosynthetic process,0.02,2
+Medicago,Positive,BP,GO:0072318,clathrin coat disassembly,0.047,2
