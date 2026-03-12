@@ -3,10 +3,10 @@
 ## Department of Plant and Microbial Biology, University of Minnesota
 
 ## This analyses include general data processing, WGCNA, GO enrichment analysis and network comparisons.
-## 01_DataProcessing
-## 02_WGCNA
-## 03_GOenrichment
-## 04_NetworkComparison
+## 1. DataProcessing
+## 2. WGCNA
+## 3. GOenrichment
+## 4. NetworkComparison
 
 ## Required libraries for entire process
 library(WGCNA)
