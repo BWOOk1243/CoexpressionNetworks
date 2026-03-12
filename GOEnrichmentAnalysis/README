@@ -11,6 +11,8 @@ These analyses were conducted using genes involved in strong interspecies correl
 The following input files are required:
 - Table in interspecieis correlations generated in the previous "Data_processing" step (defined as CorrMat_table_bSM).
 - "Summary_table_SM_model.csv" Module assignment table generated in the previous "WGCNA" step
+- "EnrichedGO_highcorr.csv" Table containing enriched GO terms from the highly correlated interspecies genes
+- "EnrichedGO_modules_SM_model.csv" Table containing enriched GO terms from the module-wise genes
 
 GO Reference annotations
 GO annotations for each species are available from the following sources:
