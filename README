@@ -2,13 +2,11 @@
 ## Byungwook Choi, Peter Tiffin
 ## Department of Plant and Microbial Biology, University of Minnesota
 
-## This analyses include general data processing, interspecies correlations, WGCNA, GO enrichment analysis and network comparisons described Choi et al.
-## 
-## 01_
-## 02_
-## 03_
-## 04_
-## 05_
+## This analyses include general data processing, WGCNA, GO enrichment analysis and network comparisons.
+## 01_DataProcessing
+## 02_WGCNA
+## 03_GOenrichment
+## 04_NetworkComparison
 
 
 
