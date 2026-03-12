@@ -27,7 +27,7 @@ Datasets from Riaz et al. (2025)
 These datasets are available in the Supporting Information of: https://www.pnas.org/doi/suppl/10.1073/pnas.2411831122
 
 Datasets in this study
-  - "WGCNA_Readcount.csv" 
+  - "WGCNA_Readcount.csv" Expression counts generated from dual-seq transcriptomed.
   - "Summary_Module_SM_Model.csv"
   - "Summary_Module_S_Model.csv"
   - "Summary_Module_M_Model.csv"
