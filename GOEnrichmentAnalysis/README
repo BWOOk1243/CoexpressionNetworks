@@ -1,1 +1,32 @@
+## GO enrichment analysis
+This folder contains R scripts used to perform Gene Ontology (GO) enrichment analysis by the clusterProfiler R package (Wu et al. 2021).
+These analyses were conducted using genes involved in strong interspecies correlations as well as co-expression modules from WGCNA.
+- Highly correlated interspecies genes
+  - For Sinorhizobia: the top 200 positive and negative correlations
+  - For Medicago : the top 200 positive and negative correlations
+- Module-wise gene sets
+  - Genes belonging to each module from the WGCNA analysis
 
+## Input data
+The following input files are required:
+- Table in interspecieis correlations generated in the previous "Data_processing" step (defined as CorrMat_table_bSM).
+- "Summary_table_SM_model.csv" Module assignment table generated in the previous "WGCNA" step
+
+GO Reference annotations
+GO annotations for each species are available from the following sources:
+- For Sinorhizobia (available from https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_002197065.1/)
+  - "GCF_002197065.1_ASM219706v1_genomic.gtf.gz"
+- For Medicago (available from https://medicago.toulouse.inra.fr/MtrunA17r5.0-ANR/)
+  - "MtrunA17r5.0-ANR-EGN-r1.9.gtf"
+  - "MtrunA17r5.0-ANR-EGN-r1.9.b2g.tsv"
+  - "MtrunA17r5.0-ANR-EGN-r1.9.xlsx"
+
+## Processing
+The scripts in this folder perform the following steps:
+- Build GO terminology references for each speices
+- Perform GO enrichment analysis
+  - for highly correlated interspecies genes
+  - for Module-wise genes
+- Visualzing the enriched GOs
+  - for highly correlated interspecies genes
+  - for module-wise genes
