@@ -1,4 +1,24 @@
-## This is for WGCNA
-## Data_Log2TPM.csv is an initial file to run the WGCNA (from S+M model)
-## Visualizing module-wise pie charts for all genes across modules needs Modules_SM_model.csv
-## Visualizing module-wise pie charts for hubgenes across modules needs Modules_HubGenes_SM_model.csv
+## WGCNA
+This folder contains R scripts used to construct co-expression networks using the WGCNA workflow (Langfelder and Horvart 2008).
+
+This analyses were performed using:
+- the combined two-species dataset (S+M model)
+- the single-species datasets (S model for Sinorhizobia and M model for Medicago). 
+
+## Input data
+The following input files are required:
+- "Data_Log2TPM.csv" Log2(TPM+1) expression profiles generated from the previous "Data_processing" step.
+- "Modules_SM_model.csv" Module assignment table for all genes from the WGCNA with the S+M model.
+- "Modules_HubGenes_SM_model.csv" Module assignment table for hub genes (kME > 0.8) from the WGCNA with the S+M model.
+
+## Processing
+The scripts in this folder perform the following steps:
+- Constrcut co-expression networks using WGCNA
+  - Detect co-expression modules
+  - Calculate module membership values (kME)
+  - Network construction for S+M model (combined host-symbiont dataset), S model (Sinorhizobia only), and M model (Medicago only)
+- plus, scripts to visualizd the followings:
+  - Module-wise pie charts showing the proportion of host and symbiont genes within each module of the S+M model.
+  - Module-wise pie charts for Hub-genes showing the proportion within each module of the S+M model.
+
+## The datasets generated here are used as input for downstream GO enrichment analysis
