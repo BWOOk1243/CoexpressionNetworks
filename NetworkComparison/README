@@ -28,9 +28,9 @@ These datasets are available in the Supporting Information of: https://www.pnas.
 
 Datasets in this study
   - "WGCNA_Readcount.csv" Expression counts generated from dual-seq transcriptomed.
-  - "Summary_Module_SM_Model.csv"
-  - "Summary_Module_S_Model.csv"
-  - "Summary_Module_M_Model.csv"
+  - "Summary_Module_SM_Model.csv" Module assignment table for all genes from the WGCNA with the S+M model
+  - "Summary_Module_S_Model.csv" Module assignment table for all genes from the WGCNA with the S model
+  - "Summary_Module_M_Model.csv" Module assignment table for all genes from the WGCNA with the M model
 
 d) References used to match Sinorhizobia protein IDs between datasets:
   - "GCF_002197065.1_ASM219706v1_genomic.gtf.gz" (available on https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_002197065.1/)  (for this study)
