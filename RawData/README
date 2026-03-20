@@ -1,3 +1,10 @@
-## ALL Raw datasets from Two-species 
+## This repository accompanies the manuscripts: 
+## Byungwook Choi, Peter Tiffin
+## Department of Plant and Microbial Biology, University of Minnesota
 
-## Dataset List
+## For ALL Raw datasets 
+## Dataset List included:
+- Data_readcounts.csv: Raw read counts from dual-seq transcriptome profiles in this study
+- Data_TPM.csv: Gene-level expression profiles (TPM) across entire libraries
+- Data_TPM_cdlg: Gene-level expression profiles (TPM/codinglength) across entirhe libraries
+- Data_Log2TPM.csv: Gene-level expression profiles (Log2(TPM+1)) across entirhe libraries
