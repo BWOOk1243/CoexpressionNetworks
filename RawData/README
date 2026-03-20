@@ -4,7 +4,7 @@
 
 ## For ALL Raw datasets 
 ## Dataset List included:
-- Data_readcounts.zip: Raw read counts from dual-seq transcriptome profiles in this study (compressed, *.csv)
+- WGCNA_readcounts.csv: Raw read counts from dual-seq transcriptome profiles in this study (filtered by mean number of mapped reads > 10, referred to Table S2)
 - Data_TPM.zip: Gene-level expression profiles (TPM) across entire libraries (compressed, *.csv)
 - Data_TPM_cdlg.zip: Gene-level expression profiles (TPM/codinglength) across entirhe libraries (compressed, *.csv)
-- Data_Log2TPM.csv: Gene-level expression profiles (Log2(TPM+1)) across entirhe libraries
+- Data_Log2TPM.zip: Gene-level expression profiles (Log2(TPM+1)) across entirhe libraries (compressed, *.csv)
